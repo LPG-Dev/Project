@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="EventStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cel1" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel10" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel11" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel12" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel13" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel14" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel15" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel16" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel17" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel18" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel19" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel2" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel20" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel21" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel22" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel23" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel24" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel25" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel3" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel4" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel5" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel6" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel7" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel8" type="xs:int" />
+      <xs:element minOccurs="0" name="Cel9" type="xs:int" />
+      <xs:element minOccurs="0" name="CyclusCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EventNaam" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EventStatus" nillable="true" type="tns:EventStatus" />
+</xs:schema>

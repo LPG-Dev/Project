@@ -1,0 +1,15 @@
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\WCF.dll.config
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\WCF.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\WCF.pdb
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\EntityFramework.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\EntityFramework.SqlServer.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\EntityFramework.xml
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\bin\EntityFramework.SqlServer.xml
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\obj\Debug\WCF.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\obj\Debug\WCF.pdb
+C:\Users\LuCiuZ\Documents\Visual Studio 2012\Projects\WCF\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\WCF\WCF\bin\WCF.dll.config
+C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\WCF\WCF\bin\WCF.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\WCF\WCF\bin\WCF.pdb
+C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\WCF\WCF\obj\Debug\WCF.dll
+C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\WCF\WCF\obj\Debug\WCF.pdb

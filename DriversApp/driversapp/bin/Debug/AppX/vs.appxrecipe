@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>4CZ1231X52</Machine>
+    <WindowsUser>3130079</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>84628d4a-8c46-4d7a-a9cc-8e5b467836bc</PackageIdentityName>
+    <RegisteredManifestChecksum>9C8260436C3A2F7117FF9E6068D03861681463EC1F4CB65812BAE362369FD412</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>84628d4a-8c46-4d7a-a9cc-8e5b467836bc_1.0.0.0_neutral__sczmtjwnvb3pp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>84628d4a-8c46-4d7a-a9cc-8e5b467836bc_sczmtjwnvb3pp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>84628d4a-8c46-4d7a-a9cc-8e5b467836bc</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=3130079</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-30T09:25:35.301</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\DriversApp.exe">
+      <PackagePath>DriversApp.exe</PackagePath>
+      <Modified>2014-01-30T09:25:34.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\AB123varid18.xml">
+      <PackagePath>Assets\AB123varid18.xml</PackagePath>
+      <Modified>2014-01-29T08:31:15.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Data\account.xml">
+      <PackagePath>Assets\Data\account.xml</PackagePath>
+      <Modified>2014-01-30T09:28:38.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Data\default.xml">
+      <PackagePath>Assets\Data\default.xml</PackagePath>
+      <Modified>2014-01-27T09:01:18.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\be.jpg">
+      <PackagePath>Assets\Images\be.jpg</PackagePath>
+      <Modified>2013-12-09T14:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\vlaggen-be-nl.jpg">
+      <PackagePath>Assets\Images\vlaggen-be-nl.jpg</PackagePath>
+      <Modified>2013-12-11T13:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\ford-logo.png">
+      <PackagePath>Assets\Images\ford-logo.png</PackagePath>
+      <Modified>2013-12-09T11:54:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\Info.png">
+      <PackagePath>Assets\Images\Info.png</PackagePath>
+      <Modified>2014-01-08T09:41:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\Next_Arrow.png">
+      <PackagePath>Assets\Images\Next_Arrow.png</PackagePath>
+      <Modified>2013-12-16T09:58:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\player_pause.png">
+      <PackagePath>Assets\Images\player_pause.png</PackagePath>
+      <Modified>2013-12-16T07:48:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\stop.png">
+      <PackagePath>Assets\Images\stop.png</PackagePath>
+      <Modified>2014-01-08T09:44:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Images\usa.png">
+      <PackagePath>Assets\Images\usa.png</PackagePath>
+      <Modified>2013-12-09T14:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\Assets\Sound\test.wav">
+      <PackagePath>Assets\Sound\test.wav</PackagePath>
+      <Modified>2014-01-08T06:59:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-01-29T09:06:04.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\Frames\EindPagina.xbf">
+      <PackagePath>Frames\EindPagina.xbf</PackagePath>
+      <Modified>2014-01-30T09:24:42.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\Frames\EventTracker.xbf">
+      <PackagePath>Frames\EventTracker.xbf</PackagePath>
+      <Modified>2014-01-29T09:06:04.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\Frames\Info.xbf">
+      <PackagePath>Frames\Info.xbf</PackagePath>
+      <Modified>2014-01-29T09:06:04.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\Frames\MainPage.xbf">
+      <PackagePath>Frames\MainPage.xbf</PackagePath>
+      <Modified>2014-01-29T09:06:04.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\Frames\Welkom.xbf">
+      <PackagePath>Frames\Welkom.xbf</PackagePath>
+      <Modified>2014-01-30T09:24:42.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\3130079\Documents\PHL\3AON\ICT Project\DriversApp_V7.1\DriversApp\DriversApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-30T09:25:35.045</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

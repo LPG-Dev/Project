@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ProcedurePerWagenClass">
+  <DataContextMoniker Name="/ProcedurePerWagenClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0d282bf-3d6f-4b91-a750-e19152e73fb1" absoluteBounds="2.75, 2.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ProcedurePerWagenClassDataContext/ProceduresPerWagen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f24fb4d-f396-4a09-9c41-b04563e02c2a" absoluteBounds="2.765, 2.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

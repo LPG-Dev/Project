@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCF.DataModels" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCF.DataModels" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Account" nillable="true" type="tns:Account" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccount" nillable="true" type="tns:ArrayOfAccount" />
+  <xs:complexType name="Account">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="paswoord" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="rol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="stamnummer" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Account" nillable="true" type="tns:Account" />
+  <xs:complexType name="ArrayOfAdministrator">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Administrator" nillable="true" type="tns:Administrator" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAdministrator" nillable="true" type="tns:ArrayOfAdministrator" />
+  <xs:complexType name="Administrator">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="adm_naam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="adm_voornaam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="stamnummer" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Administrator" nillable="true" type="tns:Administrator" />
+  <xs:complexType name="ArrayOfCyclus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Cyclus" nillable="true" type="tns:Cyclus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCyclus" nillable="true" type="tns:ArrayOfCyclus" />
+  <xs:complexType name="Cyclus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cycl_adaptive_damping" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cycl_belading" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cycl_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cycl_cycli" type="xs:int" />
+      <xs:element minOccurs="0" name="cycl_hill_launch_assist" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cycl_schakelmodus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cyclus" nillable="true" type="tns:Cyclus" />
+  <xs:complexType name="ArrayOfCyclusbladenPerVariant">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CyclusbladenPerVariant" nillable="true" type="tns:CyclusbladenPerVariant" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCyclusbladenPerVariant" nillable="true" type="tns:ArrayOfCyclusbladenPerVariant" />
+  <xs:complexType name="CyclusbladenPerVariant">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cyclusblad_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="procedure_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="variant_code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="volgorde" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CyclusbladenPerVariant" nillable="true" type="tns:CyclusbladenPerVariant" />
+  <xs:complexType name="ArrayOfEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Event" nillable="true" type="tns:Event" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEvent" nillable="true" type="tns:ArrayOfEvent" />
+  <xs:complexType name="Event">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="baan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="beschrijving" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="templateCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="volgorde" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Event" nillable="true" type="tns:Event" />
+  <xs:complexType name="ArrayOfEventsOpvolging">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EventsOpvolging" nillable="true" type="tns:EventsOpvolging" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEventsOpvolging" nillable="true" type="tns:ArrayOfEventsOpvolging" />
+  <xs:complexType name="EventsOpvolging">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="baan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel10" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel11" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel12" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel13" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel14" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel15" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel16" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel17" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel18" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel19" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel20" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel21" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel22" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel23" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel24" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel25" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel5" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel6" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel7" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel8" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cel9" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codeEvent" type="xs:int" />
+      <xs:element minOccurs="0" name="frequentie" type="xs:int" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="idCyclusblad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="naam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="snelheid" type="xs:int" />
+      <xs:element minOccurs="0" name="versnelling" type="xs:int" />
+      <xs:element minOccurs="0" name="volgorde" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EventsOpvolging" nillable="true" type="tns:EventsOpvolging" />
+  <xs:complexType name="ArrayOfEventsPerCyclusblad">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EventsPerCyclusblad" nillable="true" type="tns:EventsPerCyclusblad" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEventsPerCyclusblad" nillable="true" type="tns:ArrayOfEventsPerCyclusblad" />
+  <xs:complexType name="EventsPerCyclusblad">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Cel1" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel10" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel11" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel12" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel13" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel14" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel15" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel16" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel17" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel18" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel19" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel2" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel20" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel21" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel22" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel23" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel24" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel25" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel3" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel4" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel5" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel6" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel7" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel8" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="Cel9" type="xs:unsignedByte" />
+      <xs:element minOccurs="0" name="baan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codeCyclusblad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="codeEvent" type="xs:int" />
+      <xs:element minOccurs="0" name="frequentie" type="xs:int" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="naam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="snelheid" type="xs:int" />
+      <xs:element minOccurs="0" name="versnelling" type="xs:int" />
+      <xs:element minOccurs="0" name="volgorde" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EventsPerCyclusblad" nillable="true" type="tns:EventsPerCyclusblad" />
+  <xs:complexType name="ArrayOfNiveaus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Niveaus" nillable="true" type="tns:Niveaus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNiveaus" nillable="true" type="tns:ArrayOfNiveaus" />
+  <xs:complexType name="Niveaus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="niveaunaam" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Niveaus" nillable="true" type="tns:Niveaus" />
+  <xs:complexType name="ArrayOfPloegen">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ploegen" nillable="true" type="tns:Ploegen" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPloegen" nillable="true" type="tns:ArrayOfPloegen" />
+  <xs:complexType name="Ploegen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ploegnaam" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ploegen" nillable="true" type="tns:Ploegen" />
+  <xs:complexType name="ArrayOfProceduresPerWagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProceduresPerWagen" nillable="true" type="tns:ProceduresPerWagen" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProceduresPerWagen" nillable="true" type="tns:ArrayOfProceduresPerWagen" />
+  <xs:complexType name="ProceduresPerWagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="procedureCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="variantCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="voortgang" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="wagencode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProceduresPerWagen" nillable="true" type="tns:ProceduresPerWagen" />
+  <xs:complexType name="ArrayOfPuntenPerBaan">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PuntenPerBaan" nillable="true" type="tns:PuntenPerBaan" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPuntenPerBaan" nillable="true" type="tns:ArrayOfPuntenPerBaan" />
+  <xs:complexType name="PuntenPerBaan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Nr" type="xs:int" />
+      <xs:element minOccurs="0" name="codeBaan" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="latitude" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="longitude" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="punt" type="xs:int" />
+      <xs:element minOccurs="0" name="radius" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PuntenPerBaan" nillable="true" type="tns:PuntenPerBaan" />
+  <xs:complexType name="ArrayOfTemplate">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Template" nillable="true" type="tns:Template" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTemplate" nillable="true" type="tns:ArrayOfTemplate" />
+  <xs:complexType name="Template">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="templateCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Template" nillable="true" type="tns:Template" />
+  <xs:complexType name="ArrayOfTestbaan">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Testbaan" nillable="true" type="tns:Testbaan" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestbaan" nillable="true" type="tns:ArrayOfTestbaan" />
+  <xs:complexType name="Testbaan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="baan_naam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="breedte" type="xs:decimal" />
+      <xs:element minOccurs="0" name="diepte" type="xs:decimal" />
+      <xs:element minOccurs="0" name="info" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lengte" type="xs:int" />
+      <xs:element minOccurs="0" name="testbaan_code" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Testbaan" nillable="true" type="tns:Testbaan" />
+  <xs:complexType name="ArrayOfTestchauffeurPerCyclus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TestchauffeurPerCyclus" nillable="true" type="tns:TestchauffeurPerCyclus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestchauffeurPerCyclus" nillable="true" type="tns:ArrayOfTestchauffeurPerCyclus" />
+  <xs:complexType name="TestchauffeurPerCyclus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cyclusblok_id" type="xs:int" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="stamnummer" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestchauffeurPerCyclus" nillable="true" type="tns:TestchauffeurPerCyclus" />
+  <xs:complexType name="ArrayOfTestChauffeur">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TestChauffeur" nillable="true" type="tns:TestChauffeur" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestChauffeur" nillable="true" type="tns:ArrayOfTestChauffeur" />
+  <xs:complexType name="TestChauffeur">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Wachtwoord" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chauf_naam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chauf_niveau" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chauf_ploeg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="chauf_voornaam" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="stamnummer" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestChauffeur" nillable="true" type="tns:TestChauffeur" />
+  <xs:complexType name="ArrayOfTestProcedure">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TestProcedure" nillable="true" type="tns:TestProcedure" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestProcedure" nillable="true" type="tns:ArrayOfTestProcedure" />
+  <xs:complexType name="TestProcedure">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="beschrijving" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="proc_code" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestProcedure" nillable="true" type="tns:TestProcedure" />
+  <xs:complexType name="ArrayOfTestwagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Testwagen" nillable="true" type="tns:Testwagen" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestwagen" nillable="true" type="tns:ArrayOfTestwagen" />
+  <xs:complexType name="Testwagen">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="WagenNr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tablet_id" type="xs:int" />
+      <xs:element minOccurs="0" name="testwagen_type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Testwagen" nillable="true" type="tns:Testwagen" />
+  <xs:complexType name="ArrayOfVarianten">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Varianten" nillable="true" type="tns:Varianten" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVarianten" nillable="true" type="tns:ArrayOfVarianten" />
+  <xs:complexType name="Varianten">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="procedureCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="variantCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="volgorde" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Varianten" nillable="true" type="tns:Varianten" />
+  <xs:complexType name="ArrayOfVersie">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Versie" nillable="true" type="tns:Versie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVersie" nillable="true" type="tns:ArrayOfVersie" />
+  <xs:complexType name="Versie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="versie1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Versie" nillable="true" type="tns:Versie" />
+</xs:schema>

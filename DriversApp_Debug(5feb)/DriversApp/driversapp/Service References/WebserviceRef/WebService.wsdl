@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WebService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:9411/WebService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:9411/WebService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:9411/WebService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCF.DataModels" />
+      <xsd:import schemaLocation="http://localhost:9411/WebService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IWebService_GetAllAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllAdmins_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAdmins" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllAdmins_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAdminsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCyclus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCyclus" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCyclus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCyclusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCyclusbladenPerVariant_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCyclusbladenPerVariant" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCyclusbladenPerVariant_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCyclusbladenPerVariantResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEvents_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEvents" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEvents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEventsOpvolging_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEventsOpvolging" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEventsOpvolging_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEventsOpvolgingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEventsPerCyclusblad_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEventsPerCyclusblad" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllEventsPerCyclusblad_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEventsPerCyclusbladResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllNiveaus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNiveaus" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllNiveaus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNiveausResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllPloegen_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPloegen" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllPloegen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllPloegenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllProceduresPerWagen_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllProceduresPerWagen" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllProceduresPerWagen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllProceduresPerWagenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCoordinaten_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCoordinaten" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllCoordinaten_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllCoordinatenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTemplates_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTemplates" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTemplates_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTemplatesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestbanen_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestbanen" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestbanen_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestbanenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestchauffeurPerCyclus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestchauffeurPerCyclus" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestchauffeurPerCyclus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestchauffeurPerCyclusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestChauffeurs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestChauffeurs" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestChauffeurs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestChauffeursResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestProcedures_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestProcedures" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestProcedures_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestProceduresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestWagens_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestWagens" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllTestWagens_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTestWagensResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllVarianten_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllVarianten" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllVarianten_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllVariantenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllVersies_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllVersies" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_GetAllVersies_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllVersiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_InsertEventStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEventStatus" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_InsertEventStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertEventStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateVoltooid_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVoltooid" />
+  </wsdl:message>
+  <wsdl:message name="IWebService_UpdateVoltooid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVoltooidResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IWebService">
+    <wsdl:operation name="GetAllAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllAccounts" message="tns:IWebService_GetAllAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllAccountsResponse" message="tns:IWebService_GetAllAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAdmins">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllAdmins" message="tns:IWebService_GetAllAdmins_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllAdminsResponse" message="tns:IWebService_GetAllAdmins_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCyclus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllCyclus" message="tns:IWebService_GetAllCyclus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllCyclusResponse" message="tns:IWebService_GetAllCyclus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCyclusbladenPerVariant">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllCyclusbladenPerVariant" message="tns:IWebService_GetAllCyclusbladenPerVariant_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllCyclusbladenPerVariantResponse" message="tns:IWebService_GetAllCyclusbladenPerVariant_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEvents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllEvents" message="tns:IWebService_GetAllEvents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllEventsResponse" message="tns:IWebService_GetAllEvents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEventsOpvolging">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllEventsOpvolging" message="tns:IWebService_GetAllEventsOpvolging_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllEventsOpvolgingResponse" message="tns:IWebService_GetAllEventsOpvolging_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEventsPerCyclusblad">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllEventsPerCyclusblad" message="tns:IWebService_GetAllEventsPerCyclusblad_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllEventsPerCyclusbladResponse" message="tns:IWebService_GetAllEventsPerCyclusblad_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllNiveaus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllNiveaus" message="tns:IWebService_GetAllNiveaus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllNiveausResponse" message="tns:IWebService_GetAllNiveaus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPloegen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllPloegen" message="tns:IWebService_GetAllPloegen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllPloegenResponse" message="tns:IWebService_GetAllPloegen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProceduresPerWagen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllProceduresPerWagen" message="tns:IWebService_GetAllProceduresPerWagen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllProceduresPerWagenResponse" message="tns:IWebService_GetAllProceduresPerWagen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCoordinaten">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllCoordinaten" message="tns:IWebService_GetAllCoordinaten_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllCoordinatenResponse" message="tns:IWebService_GetAllCoordinaten_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTemplates">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTemplates" message="tns:IWebService_GetAllTemplates_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTemplatesResponse" message="tns:IWebService_GetAllTemplates_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestbanen">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTestbanen" message="tns:IWebService_GetAllTestbanen_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTestbanenResponse" message="tns:IWebService_GetAllTestbanen_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestchauffeurPerCyclus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTestchauffeurPerCyclus" message="tns:IWebService_GetAllTestchauffeurPerCyclus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTestchauffeurPerCyclusResponse" message="tns:IWebService_GetAllTestchauffeurPerCyclus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestChauffeurs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTestChauffeurs" message="tns:IWebService_GetAllTestChauffeurs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTestChauffeursResponse" message="tns:IWebService_GetAllTestChauffeurs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestProcedures">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTestProcedures" message="tns:IWebService_GetAllTestProcedures_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTestProceduresResponse" message="tns:IWebService_GetAllTestProcedures_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestWagens">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllTestWagens" message="tns:IWebService_GetAllTestWagens_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllTestWagensResponse" message="tns:IWebService_GetAllTestWagens_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVarianten">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllVarianten" message="tns:IWebService_GetAllVarianten_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllVariantenResponse" message="tns:IWebService_GetAllVarianten_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVersies">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/GetAllVersies" message="tns:IWebService_GetAllVersies_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/GetAllVersiesResponse" message="tns:IWebService_GetAllVersies_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertEventStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/InsertEventStatus" message="tns:IWebService_InsertEventStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/InsertEventStatusResponse" message="tns:IWebService_InsertEventStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVoltooid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWebService/UpdateVoltooid" message="tns:IWebService_UpdateVoltooid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWebService/UpdateVoltooidResponse" message="tns:IWebService_UpdateVoltooid_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IWebService" type="tns:IWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllAccounts">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAdmins">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllAdmins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCyclus">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllCyclus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCyclusbladenPerVariant">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllCyclusbladenPerVariant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEvents">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllEvents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEventsOpvolging">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllEventsOpvolging" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEventsPerCyclusblad">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllEventsPerCyclusblad" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllNiveaus">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllNiveaus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPloegen">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllPloegen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProceduresPerWagen">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllProceduresPerWagen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCoordinaten">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllCoordinaten" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTemplates">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTemplates" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestbanen">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTestbanen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestchauffeurPerCyclus">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTestchauffeurPerCyclus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestChauffeurs">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTestChauffeurs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestProcedures">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTestProcedures" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllTestWagens">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllTestWagens" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVarianten">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllVarianten" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllVersies">
+      <soap:operation soapAction="http://tempuri.org/IWebService/GetAllVersies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertEventStatus">
+      <soap:operation soapAction="http://tempuri.org/IWebService/InsertEventStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVoltooid">
+      <soap:operation soapAction="http://tempuri.org/IWebService/UpdateVoltooid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="BasicHttpBinding_IWebService" binding="tns:BasicHttpBinding_IWebService">
+      <soap:address location="http://localhost:9411/WebService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LPG_DEV" Class="TestchauffeurPerCyclusDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=LPG_DEV;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LPG_DEVConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TestchauffeurPerCyclus" Member="TestchauffeurPerCyclus">
+    <Type Name="TestchauffeurPerCyclus">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="stamnummer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cyclusblok_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,3 @@
+Scale=100
+Language=NL-BE
+Language=EN-US

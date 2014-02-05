@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CyclusClass">
+  <DataContextMoniker Name="/CyclusClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b78c2b58-e7ad-4f1d-9f06-42ca521a4761" absoluteBounds="1.75, 1.25, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CyclusClassDataContext/Cyclus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="230bfa11-79ee-4035-94c9-4fb351dfc56f" absoluteBounds="1.7650000000000001, 1.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

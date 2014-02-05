@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PloegClass">
+  <DataContextMoniker Name="/PloegClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8e791adc-7f83-4515-af3c-aab52807c3f0" absoluteBounds="1.875, 2.125, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/PloegClassDataContext/Ploegen" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c030804-e404-4b09-940a-1f4ae743b67d" absoluteBounds="1.8900000000000001, 2.585, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

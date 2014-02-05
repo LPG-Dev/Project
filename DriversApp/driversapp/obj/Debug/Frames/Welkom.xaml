@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="DriversApp.welkom"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DriversApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="569" Margin="220,86,0,0" Stroke="Black" VerticalAlignment="Top" Width="924"/>
+        <TextBlock x:Name="lblWelcome" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Welcome" x:Uid="txtWelkom" VerticalAlignment="Top" FontSize="45" RenderTransformOrigin="0.386,0.694" Foreground="#FF1F497D" TextAlignment="Center" Margin="596,279,0,0" Visibility="Collapsed"/>
+        <ProgressRing x:Name="prLoading" IsActive="True"  DataContext="Please Wait"  Width="50" Height="50" Background="Transparent" Foreground="#FF1088FF" />
+        <Button x:ConnectionId='1' x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="1000,570,0,0" VerticalAlignment="Top" Height="89" Width="149"                        Foreground="#FF1F497D" Visibility="Collapsed"/>
+        <Button x:ConnectionId='2' x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="217,603,0,0" VerticalAlignment="Top" Width="128"                         Height="55"/>
+    </Grid>
+</Page>
+

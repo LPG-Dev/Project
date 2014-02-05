@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10" name="EventsOpvolgingClass">
+  <DataContextMoniker Name="/EventsOpvolgingClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="46acff7c-fc3b-4440-b079-ef7c0c1c320f" absoluteBounds="2.625, 2.375, 2, 7.3476383463541657">
+      <DataClassMoniker Name="/EventsOpvolgingClassDataContext/EventsOpvolging" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c93ae4f-9674-48a4-b217-7d87090bcc58" absoluteBounds="2.64, 2.835, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

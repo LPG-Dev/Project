@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<accounts><versie>8</versie><testchauffeur><stamnr>00001</stamnr><naam>Bollaert</naam><voornaam>Wouter</voornaam><ploeg>ploeg1</ploeg><niveau>niveau2</niveau><wachtwoord>02cae2b7e2a99c76799e7ce79c42b47b3b0e1200d3220901a0e2f61e8348bb4a</wachtwoord></testchauffeur><testchauffeur><stamnr>00000</stamnr><naam>Leenaers</naam><voornaam>Tim</voornaam><ploeg>ploeg3</ploeg><niveau>niveau3</niveau><wachtwoord>202cb962ac59075b964b07152</wachtwoord></testchauffeur><testchauffeur><stamnr>00004</stamnr><naam>Maghdouri</naam><voornaam>Lucien</voornaam><ploeg>ploeg1</ploeg><niveau>niveau3</niveau><wachtwoord>a3937e7bbb162618067e8785f8a5fb73a49a0393318a9fd40face818fec868ad</wachtwoord></testchauffeur>
+</accounts>

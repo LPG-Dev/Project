@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PuntenPerBaan">
+  <DataContextMoniker Name="/PuntenPerBaanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2f9c8222-1a2c-4c90-bd4d-dd4231e0d3ee" absoluteBounds="2.125, 1.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PuntenPerBaanDataContext/PuntenPerBaan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0edb4b26-f08d-4e6d-acc0-f2c867d318c0" absoluteBounds="2.14, 2.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

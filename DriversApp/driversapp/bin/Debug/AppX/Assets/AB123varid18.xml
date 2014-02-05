@@ -1,0 +1,465 @@
+<?xml version="1.0"?>
+<wagen>
+  <wagennr>AB123</wagennr>
+
+  <procedure>
+    <procedureCode>00.00-R-361</procedureCode>
+
+    <variant>
+      <variantCode>variant1</variantCode>
+      <voortgang>010103</voortgang>
+
+      <cyclusblad>
+        <cyclusbladCode>TestCopy</cyclusbladCode>
+        <belading>leeg</belading>
+        <hla>aan</hla>
+        <schakelmodus>manueel</schakelmodus>
+        <eenheid>Kmph</eenheid>
+        <event>
+          <cel1 id="010101">1</cel1>
+          <cel2 id="010102">1</cel2>
+          <cel3 id="010103">1</cel3>
+          <cel4 id="010104">1</cel4>
+          <cel5 id="010105">1</cel5>
+          <cel6 id="010106">0</cel6>
+          <cel7 id="010107">0</cel7>
+          <cel8 id="010108">0</cel8>
+          <cel9 id="010109">0</cel9>
+          <cel10 id="010110">0</cel10>
+          <cel11 id="010111">0</cel11>
+          <cel12 id="010112">0</cel12>
+          <cel13 id="010113">0</cel13>
+          <cel14 id="010114">0</cel14>
+          <cel15 id="010115">0</cel15>
+          <cel16 id="010116">0</cel16>
+          <cel17 id="010117">0</cel17>
+          <cel18 id="010118">0</cel18>
+          <cel19 id="010119">0</cel19>
+          <cel20 id="010120">0</cel20>
+          <cel21 id="010121">0</cel21>
+          <cel22 id="010122">0</cel22>
+          <cel23 id="010123">0</cel23>
+          <cel24 id="010124">0</cel24>
+          <cel25 id="010125">0</cel25>
+          <eventnaam>Event1</eventnaam>
+          <beschrijving>Tekst1</beschrijving>
+          <frequentie>5</frequentie>
+          <snelheid>70</snelheid>
+          <versnelling>3</versnelling>
+
+          <baan>
+            <baanCode>Grad</baanCode>
+            <naam>Gradients</naam>
+            <lengte>300</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info>Hallloooooo</info>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.20294952392578</longitude>
+              <latitude>5.334700107574463</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203250885009766</longitude>
+              <latitude>5.333700180053711</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203468322753906</longitude>
+              <latitude>5.333799839019775</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204551696777344</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20492172241211</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204064</longitude>
+              <latitude>5.317013</latitude>
+              <straal>0.00002</straal>
+            </punt>
+          </baan>
+          <versnelling>3</versnelling>
+        </event>
+        <event>
+          <cel1 id="010201">168</cel1>
+          <cel2 id="010202">169</cel2>
+          <cel3 id="010203">170</cel3>
+          <cel4 id="010204">171</cel4>
+          <cel5 id="010205">172</cel5>
+          <cel6 id="010206">173</cel6>
+          <cel7 id="010207">177</cel7>
+          <cel8 id="010208">188</cel8>
+          <cel9 id="010209">199</cel9>
+          <cel10 id="010210">100</cel10>
+          <cel11 id="010211">0</cel11>
+          <cel12 id="010212">0</cel12>
+          <cel13 id="010213">0</cel13>
+          <cel14 id="010214">0</cel14>
+          <cel15 id="010215">0</cel15>
+          <cel16 id="010216">0</cel16>
+          <cel17 id="010217">0</cel17>
+          <cel18 id="010218">0</cel18>
+          <cel19 id="010219">0</cel19>
+          <cel20 id="010220">0</cel20>
+          <cel21 id="010221">0</cel21>
+          <cel22 id="010222">0</cel22>
+          <cel23 id="010223">0</cel23>
+          <cel24 id="010224">0</cel24>
+          <cel25 id="010225">0</cel25>
+          <eventnaam>Event3</eventnaam>
+          <beschrijving>Test3</beschrijving>
+          <frequentie>2</frequentie>
+          <snelheid>50</snelheid>
+          <versnelling>3</versnelling>
+          <baan>
+            <baanCode>Grad</baanCode>
+            <naam>Gradients</naam>
+            <lengte>300</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info>Hallloooooo</info>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.20294952392578</longitude>
+              <latitude>5.334700107574463</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203250885009766</longitude>
+              <latitude>5.333700180053711</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203468322753906</longitude>
+              <latitude>5.333799839019775</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204551696777344</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20492172241211</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204064</longitude>
+              <latitude>5.317013</latitude>
+              <straal>0.00002</straal>
+            </punt>
+          </baan>
+          <versnelling>3</versnelling>
+        </event>
+        <event>
+          <cel1 id="010301">99</cel1>
+          <cel2 id="010302">0</cel2>
+          <cel3 id="010303">0</cel3>
+          <cel4 id="010304">0</cel4>
+          <cel5 id="010305">0</cel5>
+          <cel6 id="010306">0</cel6>
+          <cel7 id="010307">0</cel7>
+          <cel8 id="010308">0</cel8>
+          <cel9 id="010309">0</cel9>
+          <cel10 id="010310">0</cel10>
+          <cel11 id="010311">0</cel11>
+          <cel12 id="010312">0</cel12>
+          <cel13 id="010313">0</cel13>
+          <cel14 id="010314">0</cel14>
+          <cel15 id="010315">0</cel15>
+          <cel16 id="010316">0</cel16>
+          <cel17 id="010317">0</cel17>
+          <cel18 id="010318">0</cel18>
+          <cel19 id="010319">0</cel19>
+          <cel20 id="010320">0</cel20>
+          <cel21 id="010321">0</cel21>
+          <cel22 id="010322">0</cel22>
+          <cel23 id="010323">0</cel23>
+          <cel24 id="010324">0</cel24>
+          <cel25 id="010325">0</cel25>
+          <eventnaam>Event2</eventnaam>
+          <beschrijving>Tekst2</beschrijving>
+          <frequentie>2</frequentie>
+          <snelheid>130</snelheid>
+          <versnelling>3</versnelling>
+          <baan>
+            <baanCode>SPR</baanCode>
+            <naam>Stone Pecking Road</naam>
+            <lengte>600</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info></info>
+            <punt>
+              <longitude>51.20500183105469</longitude>
+              <latitude>5.33489990234375</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.207000732421875</longitude>
+              <latitude>5.329400062561035</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.205501556396484</longitude>
+              <latitude>5.32889986038208</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+          </baan>
+          <versnelling>3</versnelling>
+        </event>
+      </cyclusblad>
+      <cyclusblad>
+        <cyclusbladCode>test3</cyclusbladCode>
+        <belading>vollast</belading>
+        <hla>aan</hla>
+        <schakelmodus>manueel</schakelmodus>
+        <eenheid>mph</eenheid>
+        <event>
+          <cel1 id="020101">1</cel1>
+          <cel2 id="020102">0</cel2>
+          <cel3 id="020103">0</cel3>
+          <cel4 id="020104">0</cel4>
+          <cel5 id="020105">1</cel5>
+          <cel6 id="020106">0</cel6>
+          <cel7 id="020107">0</cel7>
+          <cel8 id="020108">0</cel8>
+          <cel9 id="020109">1</cel9>
+          <cel10 id="020110">0</cel10>
+          <cel11 id="020111">0</cel11>
+          <cel12 id="020112">0</cel12>
+          <cel13 id="020113">1</cel13>
+          <cel14 id="020114">0</cel14>
+          <cel15 id="020115">0</cel15>
+          <cel16 id="020116">0</cel16>
+          <cel17 id="020117">0</cel17>
+          <cel18 id="020118">0</cel18>
+          <cel19 id="020119">0</cel19>
+          <cel20 id="020120">0</cel20>
+          <cel21 id="020121">0</cel21>
+          <cel22 id="020122">0</cel22>
+          <cel23 id="020123">0</cel23>
+          <cel24 id="020124">0</cel24>
+          <cel25 id="020125">0</cel25>
+          <eventnaam>Event1</eventnaam>
+          <beschrijving>Tekst1</beschrijving>
+          <frequentie>0</frequentie>
+          <snelheid>0</snelheid>
+          <versnelling>1</versnelling>
+          <baan>
+            <baanCode>Grad</baanCode>
+            <naam>Gradients</naam>
+            <lengte>300</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info>Hallloooooo</info>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.20294952392578</longitude>
+              <latitude>5.334700107574463</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203250885009766</longitude>
+              <latitude>5.333700180053711</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203468322753906</longitude>
+              <latitude>5.333799839019775</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204551696777344</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20492172241211</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204064</longitude>
+              <latitude>5.317013</latitude>
+              <straal>0.00002</straal>
+            </punt>
+          </baan>
+          <versnelling>1</versnelling>
+        </event>
+        <event>
+          <cel1 id="020201">0</cel1>
+          <cel2 id="020202">1</cel2>
+          <cel3 id="020203">0</cel3>
+          <cel4 id="020204">1</cel4>
+          <cel5 id="020205">0</cel5>
+          <cel6 id="020206">1</cel6>
+          <cel7 id="020207">0</cel7>
+          <cel8 id="020208">1</cel8>
+          <cel9 id="020209">0</cel9>
+          <cel10 id="020210">1</cel10>
+          <cel11 id="020211">0</cel11>
+          <cel12 id="020212">1</cel12>
+          <cel13 id="020213">0</cel13>
+          <cel14 id="020214">1</cel14>
+          <cel15 id="020215">0</cel15>
+          <cel16 id="020216">0</cel16>
+          <cel17 id="020217">0</cel17>
+          <cel18 id="020218">0</cel18>
+          <cel19 id="020219">0</cel19>
+          <cel20 id="020220">0</cel20>
+          <cel21 id="020221">0</cel21>
+          <cel22 id="020222">0</cel22>
+          <cel23 id="020223">0</cel23>
+          <cel24 id="020224">0</cel24>
+          <cel25 id="020225">0</cel25>
+          <eventnaam>Event3</eventnaam>
+          <beschrijving>Test3</beschrijving>
+          <frequentie>0</frequentie>
+          <snelheid>1</snelheid>
+          <versnelling>0</versnelling>
+          <baan>
+            <baanCode>Grad</baanCode>
+            <naam>Gradients</naam>
+            <lengte>300</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info>Hallloooooo</info>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.20294952392578</longitude>
+              <latitude>5.334700107574463</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203250885009766</longitude>
+              <latitude>5.333700180053711</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.203468322753906</longitude>
+              <latitude>5.333799839019775</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204551696777344</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20492172241211</longitude>
+              <latitude>5.329229831695557</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.20370101928711</longitude>
+              <latitude>5.3343000411987305</latitude>
+              <straal>0.00002</straal>
+            </punt>
+            <punt>
+              <longitude>51.204064</longitude>
+              <latitude>5.317013</latitude>
+              <straal>0.00002</straal>
+            </punt>
+          </baan>
+          <versnelling>0</versnelling>
+        </event>
+        <event>
+          <cel1 id="020301">0</cel1>
+          <cel2 id="020302">0</cel2>
+          <cel3 id="020303">1</cel3>
+          <cel4 id="020304">0</cel4>
+          <cel5 id="020305">0</cel5>
+          <cel6 id="020306">0</cel6>
+          <cel7 id="020307">1</cel7>
+          <cel8 id="020308">0</cel8>
+          <cel9 id="020309">0</cel9>
+          <cel10 id="020310">0</cel10>
+          <cel11 id="020311">1</cel11>
+          <cel12 id="020312">0</cel12>
+          <cel13 id="020313">0</cel13>
+          <cel14 id="020314">0</cel14>
+          <cel15 id="020315">1</cel15>
+          <cel16 id="020316">0</cel16>
+          <cel17 id="020317">0</cel17>
+          <cel18 id="020318">0</cel18>
+          <cel19 id="020319">0</cel19>
+          <cel20 id="020320">0</cel20>
+          <cel21 id="020321">0</cel21>
+          <cel22 id="020322">0</cel22>
+          <cel23 id="020323">0</cel23>
+          <cel24 id="020324">0</cel24>
+          <cel25 id="020325">0</cel25>
+          <eventnaam>Event2</eventnaam>
+          <beschrijving>Tekst2</beschrijving>
+          <frequentie>1</frequentie>
+          <snelheid>0</snelheid>
+          <versnelling>0</versnelling>
+          <baan>
+            <baanCode>SPR</baanCode>
+            <naam>Stone Pecking Road</naam>
+            <lengte>600</lengte>
+            <breedte>0</breedte>
+            <diepte>0</diepte>
+            <info></info>
+            <punt>
+              <longitude>51.20500183105469</longitude>
+              <latitude>5.33489990234375</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.207000732421875</longitude>
+              <latitude>5.329400062561035</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+            <punt>
+              <longitude>51.205501556396484</longitude>
+              <latitude>5.32889986038208</latitude>
+              <straal>0.000019999999494757503</straal>
+            </punt>
+          </baan>
+          <versnelling>0</versnelling>
+        </event>
+      </cyclusblad>
+    </variant>
+  </procedure>
+</wagen>

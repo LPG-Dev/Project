@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KHAOS</Machine>
+    <WindowsUser>LuCiuZ</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>84628d4a-8c46-4d7a-a9cc-8e5b467836bc</PackageIdentityName>
+    <RegisteredManifestChecksum>9C8260436C3A2F7117FF9E6068D03861681463EC1F4CB65812BAE362369FD412</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>84628d4a-8c46-4d7a-a9cc-8e5b467836bc_1.0.0.0_neutral__sczmtjwnvb3pp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>84628d4a-8c46-4d7a-a9cc-8e5b467836bc_sczmtjwnvb3pp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>84628d4a-8c46-4d7a-a9cc-8e5b467836bc</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=3130079</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-30T19:59:56.710</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\DriversApp.exe">
+      <PackagePath>DriversApp.exe</PackagePath>
+      <Modified>2014-02-05T08:21:27.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Data\account.xml">
+      <PackagePath>Assets\Data\account.xml</PackagePath>
+      <Modified>2014-01-30T10:41:53.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\background.png">
+      <PackagePath>Assets\Images\background.png</PackagePath>
+      <Modified>2014-01-30T19:18:20.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\check.png">
+      <PackagePath>Assets\Images\check.png</PackagePath>
+      <Modified>2014-01-30T19:18:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\ford-logo.png">
+      <PackagePath>Assets\Images\ford-logo.png</PackagePath>
+      <Modified>2013-12-09T11:54:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\Info.png">
+      <PackagePath>Assets\Images\Info.png</PackagePath>
+      <Modified>2014-01-30T19:18:21.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\Next_Arrow.png">
+      <PackagePath>Assets\Images\Next_Arrow.png</PackagePath>
+      <Modified>2014-01-30T19:18:21.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\player_pause.png">
+      <PackagePath>Assets\Images\player_pause.png</PackagePath>
+      <Modified>2014-01-30T19:18:21.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\stop.png">
+      <PackagePath>Assets\Images\stop.png</PackagePath>
+      <Modified>2014-01-30T19:18:20.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\usa.png">
+      <PackagePath>Assets\Images\usa.png</PackagePath>
+      <Modified>2013-12-09T14:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\check.jpg">
+      <PackagePath>Assets\Images\check.jpg</PackagePath>
+      <Modified>2014-01-29T19:51:03.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\be.jpg">
+      <PackagePath>Assets\Images\be.jpg</PackagePath>
+      <Modified>2013-12-09T14:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Images\vlaggen-be-nl.jpg">
+      <PackagePath>Assets\Images\vlaggen-be-nl.jpg</PackagePath>
+      <Modified>2013-12-11T13:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\Assets\Sound\test.wav">
+      <PackagePath>Assets\Sound\test.wav</PackagePath>
+      <Modified>2014-01-08T06:59:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-01-30T19:59:56.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\Frames\EindPagina.xbf">
+      <PackagePath>Frames\EindPagina.xbf</PackagePath>
+      <Modified>2014-01-30T20:14:43.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\Frames\EventTracker.xbf">
+      <PackagePath>Frames\EventTracker.xbf</PackagePath>
+      <Modified>2014-01-30T20:47:08.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\Frames\Info.xbf">
+      <PackagePath>Frames\Info.xbf</PackagePath>
+      <Modified>2014-01-30T20:14:43.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\Frames\MainPage.xbf">
+      <PackagePath>Frames\MainPage.xbf</PackagePath>
+      <Modified>2014-01-30T20:14:43.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\Frames\Welkom.xbf">
+      <PackagePath>Frames\Welkom.xbf</PackagePath>
+      <Modified>2014-02-03T09:17:43.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\LuCiuZ\Documents\Visual Studio 2013\Projects\DriversApp\DriversApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-02-03T13:47:43.521</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

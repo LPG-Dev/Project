@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="DriversApp.Info"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DriversApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="txtMeerInfo" HorizontalAlignment="Left" Margin="117,109,0,0" TextWrapping="Wrap" Text="Meer info over event:" x:Uid="txtMeerInfo" VerticalAlignment="Top" Height="73" Width="912" FontSize="50" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtSnelheid" HorizontalAlignment="Left" Margin="173,320,0,0" TextWrapping="Wrap" Text="Snelheid" VerticalAlignment="Top" FontSize="30"  x:Uid="txtSnelheid" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtVersnelling" HorizontalAlignment="Left" Margin="173,380,0,0" TextWrapping="Wrap" Text="Versnelling" VerticalAlignment="Top" FontSize="30" x:Uid="txtVersnelling" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtAantalUitVoeren" x:Uid="txtAantalUitvoeren" HorizontalAlignment="Left" Margin="173,440,0,0" TextWrapping="Wrap" Text="AantalUitvoeren" VerticalAlignment="Top" FontSize="30" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtBaan" HorizontalAlignment="Left" Margin="173,260,0,0" TextWrapping="Wrap" Text="BaanCode" VerticalAlignment="Top" FontSize="30" x:Uid="txtBaan" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtOmschrijving" HorizontalAlignment="Left" Margin="173,500,0,0" TextWrapping="Wrap" Text="Omschrijving" VerticalAlignment="Top" FontSize="30" x:Uid="txtBaan" Foreground="#FF1F497D"/>
+        <TextBlock x:Name="txtEvent" HorizontalAlignment="Left" Margin="173,200,0,0" TextWrapping="Wrap" Text="EventCode" VerticalAlignment="Top" FontSize="30" x:Uid="txtBaan" Foreground="#FF1F497D"/>
+        <Button x:Name="btnTerug" x:Uid="btnTerug" Content="Button" HorizontalAlignment="Left" Margin="1181,637,-3,-3" VerticalAlignment="Top" Height="134" Width="188" FontSize="30" Click="btnTerug_Click"/>
+        <MediaElement x:Name="playSound" Source="Assets/mysound.wav" AutoPlay="False" Height="0" Width="0"  />
+    </Grid>
+</Page>
